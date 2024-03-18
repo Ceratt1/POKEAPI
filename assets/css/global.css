@@ -1,0 +1,38 @@
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+.content {
+    padding: 1rem;
+}
+
+
+.content h1 {
+    margin: 0rem;
+}
+
+
+.content ol {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.content ol li {
+    padding: 1rem;
+    margin: .5rem;
+    background-color: #14A06F;
+    color: white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content ol li img {
+    max-width: 100%;
+    align-self: flex-end;
+}
